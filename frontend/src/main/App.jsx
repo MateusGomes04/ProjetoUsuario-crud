@@ -5,15 +5,14 @@ import React from 'react'
 
 import Logo from '../components/templetes/Logo'
 import Nav from '../components/templetes/Nav'
-import Main from '../components/templetes/Main'
+import Home from '../components/home/Home'
 import Footer from '../components/templetes/Footer'
 
 export default props =>
     <div className='app'>
         <Logo />
         <Nav />
-        <Main icon='home' title='Início' 
-            subtitle='Segundo Projeto do capítulo de React.'/>
+        <Home />
         <Footer />
     </div>
 
