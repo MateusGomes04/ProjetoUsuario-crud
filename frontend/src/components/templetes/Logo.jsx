@@ -6,6 +6,6 @@ export default props =>
     <aside className='logo'>
         
         <Link to='/' className='logo'>
-            >
+            
         </Link>
     </aside>
